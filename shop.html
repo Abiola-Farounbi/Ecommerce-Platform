@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VegeFoods-Shop </title>
+    <link rel="shortcut icon" type="image/png"  href="images/logo.png" >
+    <link rel="stylesheet"  href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+   <link rel="stylesheet"  href="bootstrap/css/bootstrap.css"/> 
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/brands.css">  
+</head>
+<body class='goto-here'>
+  <nav class="navbar navbar-expand-lg navbar-light  navbarBackground fixed-top">
+    <a class="navbar-brand headIcon" href="index.html">  VEGEFOODS </a>
+    <button class="navbar-toggler navIcon" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars colors1" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cart.html"> <i class='fas fa-shopping-cart'></i> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signIn.html"> Sign In</a>
+      </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="shopMainBody">
+   <section class="shopBackground">
+     <div class="container">
+         <div class="text-center shopBackgroundText">
+          PRODUCTS
+       </div>
+     </div>
+   </section>  
+   <section class=" mt-5 mb-5 mr-auto shopList d-flex justify-content-center align-items-center">
+      <li> Vegetables </li>
+      <li> Fruits </li>
+      <li>  Juice  </li>
+      <li>  Dried </li>
+   </section> 
+   <div class="container">
+     <div class="row">
+        <div class="col-md-4 m-auto">
+          <section class=" mt-2 mb-2 shopList d-flex justify-content-center align-items-center">
+            <input type="text" class="form-control searchCase" name='search' placeholder="Search for Item">
+         </section> 
+        </div>
+     </div>
+   </div>
+<div class="hide">
+  <div class="signInMain">
+    <div class="contactMain ">
+      <div class="container ">
+        <h4 class='text-center pt-3 pb-2'> Have an account already, 
+        <button class='loginButton loginShow p-2'> LOGIN </button>  
+        </h4>
+          <div class="row">
+              <div class="col-md-7  signUpForm ">
+                  <form action="#" class="bg-white p-3 contact-form">
+                      <div class="form-group">
+                          <label for="fullname">Fullname</label>
+                        <input type="text" name='fullname' class="form-control" placeholder="Your Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                        <input type="text" class="form-control" placeholder="Your Email">
+                      </div>
+                      <div class="form-group">
+                          <label for="DOB">Date Of Birth</label>
+                        <input type="Date" name='DOB' class="form-control" placeholder="DD/MM/YY">
+                      </div>
+                      <div class="radio">
+                          <label class="mr-3"><input type="radio" name="optradio"> Vegeterian </label>
+                          <label><input type="radio" name="optradio"> Other </label>
+                        </div>
+                      <div class="form-group SignUpButton py-3 px-3 text-center">
+                        SignUp
+                      </div>
+                    </form>
+              </div>
+              <div class="col-md-7  loginForm ">
+                <form action="#" class="bg-white p-3 contact-form">
+                    <div class="form-group">
+                        <label for="fullname">Username</label>
+                      <input type="text" name='username' class="form-control" placeholder="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                      <input type="password" name='password' class="form-control" placeholder="password">
+                    </div>
+                    <div class="form-group loginButton py-3 px-3 text-center">
+                      Login
+                    </div>
+                  </form>
+            </div>
+          </div>
+      </div>
+    </div> 
+</div>
+</div>
+   <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration='1500'>
+    <section class="products">
+      <div class="container">
+        <div class="row">
+          <div class='col-md-6 col-lg-3 featureShadow1 featureShadow'>
+            <img class="img-fluid" src="images/product-1.jpg" alt="ball pepper">
+            <div class=" featureName py-3 pb-4 px-3 text-center">
+              <h3>Bell Pepper</h3>
+              <div class="text-center">
+                <div class="pricing">
+                  <div class="price"><span class="mr-2 price-dc">120.00</span><span class="price-sale">80.00</span></div>
+                </div>
+              </div>
+              <div class="bottom-area d-flex px-3">
+                <div class="m-auto d-flex">
+                  <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                  </a>
+                </div>
+              </div>
+              </div>
+            </div>
+    
+            <div class='col-md-6 col-lg-3 featureShadow1 featureShadow'>
+              <img class="img-fluid" src="images/product-2.jpg" alt="Strawberry">
+              <div class=" featureName py-3 pb-4 px-3 text-center">
+                <h3>Strawberry</h3>
+                <div class="text-center">
+                  <div class="pricing">
+                    <div class="price"><span class="price-sale">80.00</span></div>
+                  </div>
+                </div>
+                <div class="bottom-area d-flex px-3">
+                  <div class="m-auto d-flex">
+                    <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                      <span><i class="fas fa-shopping-cart"></i></span>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+    
+              <div class='col-md-6 col-lg-3 featureShadow1 featureShadow'>
+                <img class="img-fluid" src="images/product-3.jpg" alt='Green Beans'>
+                <div class=" featureName py-3 pb-4 px-3 text-center">
+                  <h3>Green Beans</h3>
+                  <div class="text-center">
+                    <div class="pricing">
+                      <div class="price"><span class="price-sale">80.00</span></div>
+                    </div>
+                  </div>
+                  <div class="bottom-area d-flex px-3">
+                    <div class="m-auto d-flex">
+                      <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+    
+                <div class='col-md-6 col-lg-3 featureShadow1 featureShadow '>
+                  <img class="img-fluid" src="images/product-4.jpg" alt='Purple Cabbage'>
+                  <div class=" featureName py-3 pb-4 px-3 text-center">
+                    <h3> Purple Cabbage</h3>
+                    <div class="text-center">
+                      <div class="pricing">
+                        <div class="price"><span class="price-sale">80.00</span></div>
+                      </div>
+                    </div>
+                    <div class="bottom-area d-flex px-3">
+                      <div class="m-auto d-flex">
+                        <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                          <span><i class="fas fa-shopping-cart"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+    
+                  <div class='col-md-6 col-lg-3 featureShadow1 featureShadow'>
+                    <img class="img-fluid" src="images/product-5.jpg" alt="Tomatoe">
+                    <div class=" featureName py-3 pb-4 px-3 text-center">
+                      <h3> Tomatoe </h3>
+                      <div class="text-center">
+                        <div class="pricing">
+                          <div class="price"><span class="price-sale">80.00</span></div>
+                        </div>
+                      </div>
+                      <div class="bottom-area d-flex px-3">
+                        <div class="m-auto d-flex">
+                          <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+    
+                    
+                  <div class='col-md-6 col-lg-3 featureShadow1 featureShadow'>
+                    <img class="img-fluid" src="images/product-6.jpg" alt="Brocolli">
+                    <div class=" featureName py-3 pb-4 px-3 text-center">
+                      <h3>Brocolli </h3>
+                      <div class="text-center">
+                        <div class="pricing">
+                          <div class="price"><span class="price-sale">80.00</span></div>
+                        </div>
+                      </div>
+                      <div class="bottom-area d-flex px-3">
+                        <div class="m-auto d-flex">
+                          <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+    
+                    
+                  <div class='col-md-6 col-lg-3 featureShadow1 featureShadow'>
+                    <img class="img-fluid" src="images/product-7.jpg" alt="Carrots">
+                    <div class=" featureName py-3 pb-4 px-3 text-center">
+                      <h3> Carrots </h3>
+                      <div class="text-center">
+                        <div class="pricing">
+                          <div class="price "><span class="price-sale">80.00</span></div>
+                        </div>
+                      </div>
+                      <div class="bottom-area d-flex px-3">
+                        <div class="m-auto d-flex">
+                          <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+    
+                    
+                  <div class='col-md-6 col-lg-3 featureShadow1 featureShadow  '>
+                    <img class="img-fluid" src="images/product-8.jpg" alt="Fruit Juice">
+                    <div class=" featureName py-3 pb-4 px-3 text-center">
+                      <h3> Fruit Juice </h3>
+                      <div class="text-center">
+                        <div class="pricing">
+                          <div class="price"><span class="price-sale">80.00</span></div>
+                        </div>
+                      </div>
+                      <div class="bottom-area d-flex px-3">
+                        <div class="m-auto d-flex">
+                          <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+    
+                    <div class='col-md-6 col-lg-3 featureShadow1 featureShadow  '>
+                      <img class="img-fluid" src="images/product-9.jpg" alt="Onions">
+                      <div class=" featureName py-3 pb-4 px-3 text-center">
+                        <h3> Onions </h3>
+                        <div class="text-center">
+                          <div class="pricing">
+                            <div class="price"><span class="price-sale">80.00</span></div>
+                          </div>
+                        </div>
+                        <div class="bottom-area d-flex px-3">
+                          <div class="m-auto d-flex">
+                            <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                              <span><i class="fas fa-shopping-cart"></i></span>
+                            </a>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class='col-md-6 col-lg-3 featureShadow1 featureShadow  '>
+                        <img class="img-fluid" src="images/product-10.jpg" alt="Apple">
+                        <div class=" featureName py-3 pb-4 px-3 text-center">
+                          <h3> Apple </h3>
+                          <div class="text-center">
+                            <div class="pricing">
+                              <div class="price"><span class="price-sale">80.00</span></div>
+                            </div>
+                          </div>
+                          <div class="bottom-area d-flex px-3">
+                            <div class="m-auto d-flex">
+                              <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                <span><i class="fas fa-shopping-cart"></i></span>
+                              </a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+    
+                        <div class='col-md-6 col-lg-3 featureShadow1 featureShadow  '>
+                          <img class="img-fluid" src="images/product-11.jpg" alt="Garlic">
+                          <div class=" featureName py-3 pb-4 px-3 text-center">
+                            <h3> Garlic </h3>
+                            <div class="text-center">
+                              <div class="pricing">
+                                <div class="price"><span class="price-sale">80.00</span></div>
+                              </div>
+                            </div>
+                            <div class="bottom-area d-flex px-3">
+                              <div class="m-auto d-flex">
+                                <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                  <span><i class="fas fa-shopping-cart"></i></span>
+                                </a>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+    
+                          <div class='col-md-6 col-lg-3 featureShadow1 featureShadow  '>
+                            <img class="img-fluid" src="images/product-12.jpg" alt="Pepper">
+                            <div class=" featureName py-3 pb-4 px-3 text-center">
+                              <h3> Pepper </h3>
+                              <div class="text-center">
+                                <div class="pricing">
+                                  <div class="price"><span class="price-sale">80.00</span></div>
+                                </div>
+                              </div>
+                              <div class="bottom-area d-flex px-3">
+                                <div class="m-auto d-flex">
+                                  <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                    <span><i class="fas fa-shopping-cart"></i></span>
+                                  </a>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+          </div>
+        </div>
+    </section>
+   </div>
+
+        <footer class="footer p-2 mt-5 mb-4">
+            <div class="container">
+              <div class="row">
+                <div class="text-center arrow-up">
+                  <i class='fas fa-arrow-up'></i>
+                </div>
+                <div class="col-md-3">
+                  <img src='images/logo.png' class='footerLogo'/>
+                  <br>
+                  <p class='footerName'> VEGEFOODS </p>
+                  <div class="d-flex footerIcon justify-content-start align-items-center">
+                    <div> <i class='fab fa-instagram m-2'></i></div>
+                    <div> <i class='fab fa-twitter m-2'></i></div>
+                    <div> <i class='fab fa-facebook m-2'></i></div>
+                  </div>
+                </div>
+                <div class="col-md-3 footerList">
+                  <h2 class="subheading">Menu</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="shop.html" class="py-2 d-block">Shop</a></li>
+                    <li><a href="about.html" class="py-2 d-block">About</a></li>
+                    <li><a href="contact.html" class="py-2 d-block">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 footerList">
+                  <h2 class="subheading">Help</h2>
+                  <div class="d-flex">
+                    <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                      <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+                      <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
+                      <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+                      <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <h2 class="subheading">Have a Questions?</h2>
+                  <div class="block-23 mb-3">
+                    <ul class='list-unstyled'>
+                      <li><span class="fas fa-map-marker mr-2 footericon2"></span>Lagos,Nigeria</li>
+                      <li><span class="fas fa-phone mr-2 footericon2"></span> 234-814-366-713 </li>
+                      <li><span class="fas fa-envelope mr-2 footericon2"></span> vegefoods@gmail.com </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+<div class="container">
+  <div class="row footerTitle">
+    <div class="col-md-12 text-center">
+  
+      <p>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+        <br>
+        Designed  with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://abiola-farounbi.github.io/Portfolio2/index.html" target="_blank">Abiola</a>
+  
+      </p>
+    </div>
+  </div>
+  
+  </div>
+          </footer>    
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src='app.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
