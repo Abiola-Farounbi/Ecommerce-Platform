@@ -8,5 +8,6 @@
 - CSS
 - Javascript
 - Jquery
-- Bootstrap, 
+- Bootstrap
+
 [Demo](https://abiola-farounbi.github.io/Ecommerce-Platform/index.html)
