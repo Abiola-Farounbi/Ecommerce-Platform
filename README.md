@@ -9,3 +9,4 @@
 - Javascript
 - Jquery
 - Bootstrap, 
+[Demo](https://abiola-farounbi.github.io/Ecommerce-Platform/index.html)
